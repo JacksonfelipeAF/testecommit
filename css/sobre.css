@@ -1,17 +1,28 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
+}
+.name h1{
+    width: 70px;
+    right: 400px;
+    text-align: center;
 }
 .one{
-    border: 2px solid black;
-    height: 250px;
-    width: 250px;
-    background-color: aqua;
+    position: relative;
+    text-align: center;
+    color: black;
 }
 .two{
-    border: 2px solid black;
-    height: 250px;
-    width: 250px;
-    background-color: aqua;
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.container{
+    
+    background: url(/img/code7.jpg) no-repeat;
+    background-size: cover;
+    height: 150vh;;
+    width: 100%;
+    background-position: center;
 }
