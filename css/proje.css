@@ -9,7 +9,10 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/img/code7.jpg');
+    background-image: url(../img/codigo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .container{
     position: relative;
@@ -22,7 +25,7 @@ body{
 }
 .container .card{
     position: relative;
-    width: 280px;
+    width: 260px;
     height: 400px;
     margin: 30px;
     box-shadow: 20px 20px 50px rgb(43, 41, 41);
@@ -34,7 +37,7 @@ body{
     align-items: center;
     border-top: 1px solid white;
     border-left: 1px solid white;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(3px);
 }
 .container .card .content{
     padding: 30px;
@@ -58,11 +61,11 @@ body{
 }
 .container .card .content h3{
     font-size: 1.8em;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     z-index: 1;
 }
 .container .card .content p{
-    font-size: 1em;
+    font-size: 19px;
     color: white;
     font-weight: 300;
 }
@@ -71,7 +74,7 @@ body{
     display: inline-block;
     padding: 8px 20px;
     margin: 15px;
-    background: aqua;
+    background: rgba(16, 105, 221, 0.884);
     color: black;
     text-decoration: none;
     border-radius: 20px;
