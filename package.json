@@ -1,0 +1,19 @@
+{
+  "name": "portifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "vanilla-tilt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonfelipeAF/testecommit.git"
+  },
+  "author": "jackson felipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JacksonfelipeAF/testecommit/issues"
+  },
+  "homepage": "https://github.com/JacksonfelipeAF/testecommit#readme"
+}

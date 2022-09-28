@@ -1,28 +1,59 @@
 *{
-    margin: 0;
-    padding: 0;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
     
 }
-.name h1{
-    width: 70px;
-    right: 400px;
-    text-align: center;
+body{
+     width: 100%;
+     background: linear-gradient( rgba(6, 83, 128, 0.904), rgba(75, 148, 207, 0.849));
 }
-.one{
-    position: relative;
-    text-align: center;
-    color: black;
+.logo img{
+     width: 220px;
+     position: absolute;
+     top: 10px;
+     left: 15px;
 }
-.two{
-    position: relative;
-    text-align: center;
-    color: black;
+.foto1 img{
+     position: relative;
+     margin-top: 200px;
+     margin-left: 1050px;
+     width: 350px;
+     height: 350px;
 }
-.container{
-    
-    background: url(/img/code7.jpg) no-repeat;
-    background-size: cover;
-    height: 150vh;;
-    width: 100%;
-    background-position: center;
+.foto1 h1{
+     font-size: 45px;
+     position: relative;
+     top: -20rem;
+     left: 1cm;
+}
+.foto1 h1:hover{
+     color: aqua;
+}
+.foto1 p{
+     position: relative;
+     top: -17rem;
+     left: 1cm;
+     font-size: 23px;
+     text-align: justify;
+     border: 1px;
+     height: 120px;
+     width: 60rem;
+}
+.foto2 img{
+     width: 350px;
+     height: 350px;
+     margin-left: 1.5cm;
+     position: relative;
+     margin-top: 10px;
+}
+.foto2 p{
+     font-size: 23px;
+     border: 1px ;
+     width: 60rem;
+     height: 200px;
+     position: relative;
+     left: 30rem;
+     top: -15rem;
+     text-align: justify;
 }
